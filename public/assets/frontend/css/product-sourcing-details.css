@@ -1,0 +1,125 @@
+#sourcing-list{
+    max-width: 904px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    display: none;
+    position: absolute;
+    top: 42px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.53);
+}
+.bd-trade{
+    margin-left: -9%;
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+#back-home,#bang-trade {
+    font-size: 12px;
+    margin: 0;
+    font-family: verdana;
+    transition: .3s;
+    color: #255E98;
+    text-align: center
+}
+
+#bang-trade {
+    line-height: 14px;
+    word-spacing: 0;
+    display: block;
+    padding: 0;
+    font-weight: 900;
+    white-space: pre-line;
+    height: 40px;
+    width: 180px
+}
+.show-ct-list{
+	position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+#mysource_buying_request
+{
+    background-color: #FF9917;
+    color:#fff !important;
+    font-size: 18px;
+    height: 38px;
+}
+
+#mysource_buying_request1
+{
+    color: #D9DCE0;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+#mysource_buying_request2
+{
+    border-color:#DAE2ED;
+    border-bottom:1px solid #DDD;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#sourcing-list
+{
+    padding-left: 3%;
+    background-color: rgb(255, 255, 255) !important;
+    margin-left: 3%;
+    display:none;
+    z-index:1;
+}
+
+#sourcing-list1
+{
+
+    background:url('../helpcenter/RFQ-Banner-04.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 324px;
+}
+.source
+{  
+  border: 1px solid #DAE2ED;
+}
+
+.source:hover
+{
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.20);
+}
+
+.source:focus
+{
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.20);
+}
+#cat-list {
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+.cat-list-product-li {
+    list-style: none;
+    float: left;
+    line-height: 20px;
+    width: 33%;
+    text-align: left;
+    color: #ccc;
+    cursor: pointer;
+    padding-bottom: 1%;
+}

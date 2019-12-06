@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+#item_sha {
+}
+#home_b {
+    z-index: 1
+}
+
+.sub-split {
+    border-top: 1px solid #ddd;
+    list-style: none;
+    padding-top: 5px;
+    line-height: 22px;
+    color: #333;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+a:hover {
+    color: #3175af;
+}
+
+.sub-split:hover {
+    color: #000
+}
+
+#ajax_status,.loader {
+    z-index: 99999999;
+    left: 0
+}
+.form-control {
+    height: 35px
+}
+.visible_tab_list {
+    padding-bottom: .8%
+}
+
+.active_proces {
+    padding-left: 5px !important;
+    color: #666;
+    font-weight: 700
+}
+
+.active_progress_icon,.inactive_progress_icon {
+    border-radius: 14px!important;
+    color: #fff;
+    height: 25px;
+    line-height: 19px;
+    width: 26px;
+    margin-right: 3%;
+    font-weight: 700
+}
+
+.active_progress_icon {
+    background: #1A4570
+}
+
+.inactive_progress_icon {
+    background: #DDD
+}
+
+.email_registration_validation {
+    margin-top: 1.5%
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/frontend/images/page-loader.gif) 50% 50% no-repeat #f9f9f9
+}
+
+.padding_0 {
+    padding: 0
+}
+.margin-bottom2 {
+    margin-bottom: 2%
+}
+.input_holder {
+    padding-bottom: 1%;
+    padding-top: 5px;
+    margin-bottom: 1.5%
+}
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+.show-ct-list{
+	position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+.category-bdt{
+	height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+	font-size: 18px;
+	color: #333;
+    /*height: 30px;*/
+}
+.container{font-family:verdana;}
+
+.confirm-msg {
+    width: 100%;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: currentColor;
+    font-size: 14px;
+    float: left;
+}
+.check-msg {
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: #000;
+    line-height: 14px;
+    font-family: verdana;
+}
+
+#spam-msg {
+    float: left;
+    margin: 0;
+    color: #19446F;
+    line-height: 26px;
+}
+#spam-msg, #spam-msg-list li {
+    width: 100%;
+    font-size: 12px;
+    font-family: verdana;
+}
+#spam-msg, .check-msg, .confirm-msg, .mouse-click {
+    font-weight: 600;
+}
+
+#spam-msg-list {
+    padding: 25px 20px 0 30px;
+    margin: 15px 0 0;
+    min-height: 200px;
+    border: 1px solid #ddd;
+    display: none;
+    float: left;
+    box-shadow: 2px 3px #ddd;
+}
+#spam-msg-list li {
+    list-style-type: square;
+    line-height: 25px;
+    color: #333;
+    padding-bottom: 20px;
+    cursor: auto;
+}
+
+#spam-msg, #spam-msg-list li {
+    width: 100%;
+    font-size: 12px;
+    font-family: verdana;
+}
+
+.mouse-click {
+    border: 1px solid #19446F;
+    padding: 7px;
+    border-radius: 3px!important;
+    color: #19446F;
+    background-color: #ddd;
+    font-size: 10px;
+    position: relative;
+    margin-top: 6px;
+}
+.suc-img {
+    max-width: 36px;
+    max-height: 30px;
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+.sucess-header {
+    width: 100%;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.bg-success {
+    background-color: #dff0d8;
+}
+
+.cong-h3 {
+    width: 100%;
+    margin: 0;
+    padding: 5px 10% 5px 0%;
+    font-size: 24px;
+    color: #000;
+    margin-left: 5%;
+    font-weight: 600;
+}
+.home-page {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 50%;
+    float: left;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+.cong-h3 {
+    width: 100%;
+    margin: 0;
+    padding: 5px 10% 5px 0%;
+    font-size: 24px;
+    color: #000;
+    margin-left: 5%;
+    font-weight: 600;
+}

@@ -1,0 +1,395 @@
+.catgory-head-tle{
+    padding: 20px 0 0 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0 !important;
+}
+.bazar-top-list {
+    padding-left: 0;
+    width: 100%;
+    margin: 0px;
+}
+.category-bdt{
+	height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+	font-size: 18px;
+	color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+.bazar-top-list>li {
+    border-color: #fff;
+    border-style: solid;
+    z-index: 2;
+    list-style: none;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    /*position: relative;*/
+
+}
+.bazar-top-list li a {
+    color: #666;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+   /* padding: 3px 0 3px;*/
+    width: 85%;
+    background: #fff;
+    /*padding-left: 40px;*/
+    padding-left: 5px;
+    line-height: 30px;
+    text-align: left;
+}
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+.bazar-top-list>li:hover{
+     border-color: #fff;
+    border-style: solid;
+    z-index: 2;
+    list-style: none;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    border: 0;
+     border-bottom:1px solid #dedede;
+     border-top:1px solid #dedede;
+ /*   padding-top: 0;
+    background-color: #fff;*/
+  /*  box-shadow: 10px 0 0 0 #fff, 1px 3px 4px 0 rgba(0,0,0,.25);*/
+   /* z-index: 2;
+   
+    border-left: 0 none;
+    border-right: 0 none;
+    color: #202020;*/
+
+}
+.bazar-top-list>li:hover >.bazar-top-list>li a .fa-angle-right{
+    color: #255E98 !important;
+}
+.cat-list-icon{
+    background: url('../fontend/bdtdc-images/bdtdc-cate.png');
+    background-repeat: no-repeat;
+
+}
+
+.n-icon{
+    position: absolute;
+    left: 0px;
+    width: 40px;
+    height: 32px;
+    margin-top: 0px;
+    margin-left: 8px;
+  
+}
+.cat-icon-apparel{
+    background-position: 0 -300px;
+}
+.cat-icon-food {
+    background-position: 5px -250px;
+}
+.cat-icon-electronic {
+    background-position: 0 -450px;
+}
+.cat-icon-furniture{
+    background-position: 0 -600px;
+}
+.cat-icon-health{
+    background-position: 0 -550px;
+}
+.cat-icon-home-light{
+    background-position: 0 -90px;
+}
+.cat-icon-footwear{
+    background-position: 0 -650px;
+}
+.cat-icon-solor{
+    background-position: 0 -750px;
+}
+.cat-icon-machinery{
+    background-position: 0 -700px;
+}
+.cat-icon-pack-print{
+    background-position: 0 -793px;
+}
+.child-ct-list{
+    position: absolute;
+    left: 300px; 
+    background: #fff;
+    height: 760px;
+    top: -1px;
+    border:1px solid #ddd;
+    display: none;
+    width: 800px;
+    transition: all 1s;
+}
+.child-ct-list>ul{
+    max-width: 550px;
+    min-width: 500px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    padding: 20px;
+    height: 450px;
+    padding-top: 15px !important;
+
+}
+.child-ct-list>ul li{
+    width: 50%;
+    float: left;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.child-ct-list>ul li a{
+    line-height: 20px;
+    color: #666;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 3%;
+}
+.child-ct-list>ul li a:hover{
+    color: #255E98;
+    text-decoration: underline;
+}
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+.next-slide{
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .category-bdt a {
+    font-size: 12px;
+    }
+}
+.pro-dt-view-info{
+    background-color: #63b8ff;
+     color: #333; 
+     font-weight: bold;
+      padding: 9px 10px; 
+      line-height: 12px;
+}
+.ft-menu >li a:hover{
+    border-bottom: 1px solid #255E98;
+}
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}
+.header-images,.product,.product-menu-ul {
+    width: 100%;
+    float: left;
+    display: block
+}
+
+.product-menu-ul-li,.product-pic-div {
+    text-align: center;
+    vertical-align: middle
+}
+
+.confirm-msg,.des-cp {
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.check-msg,.confirm-msg,.des-cp,.stststic {
+    overflow: hidden
+}
+
+.header-images {
+    background-repeat: no-repeat;
+    margin: 2% 0 0;
+    padding: 0;
+    background-size: 100%
+}
+a:hover .title {
+    color: #1a4570 !important;
+}
+
+.slidebox-item-list:hover,.slidebox-item-side:hover,.slidebox-item:hover {
+    box-shadow: 0px 0px 10px rgba(169,169,169,.67);
+    z-index: 1
+}
+
+.brand-logo img,.country,.m-ws-header-title,.pro-name,.purchase,.timer {
+    vertical-align: middle
+}
+
+.brand-logo img {
+    margin-top: 22%;
+    width: 82px;
+    height: 41px;
+    border-radius: 18px!important;
+    color: transparent
+}
+
+.slidebox-item,.slidebox-item-list,.slidebox-item-side {
+    margin: 0;
+    border: 1px solid #F0F0F0
+}
+
+.slidebox-item {
+    width: 224px;
+    background: #fff
+}
+
+.slidebox-item-side {
+    background: #fff;
+    width: 100%
+}
+
+.slidebox-item-list {
+    width: auto;
+    background: #fff
+}
+
+.brand-year {
+    padding: 50px 0 0 60px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #333
+}
+
+.brand-favorable {
+    margin: 0;
+    padding: 6px 0 10px;
+    text-align: center;
+    color: #999;
+    height: 40px
+}
+.country,.pro-name,.purchase,.slidebox-item,.slidebox-item-list,.slidebox-item-side,.timer {
+    display: inline-block
+}
+.doller-product-price {
+    color: #ce322e;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.product-hover:hover {
+    box-shadow: 2px 3px -1px #aaa;
+}
+
+.cate-product-view {
+    width: 20%;
+    overflow: hidden;
+    margin: 0
+}
+
+.title-cat-pppp {
+    padding: 6px 10px 0;
+    height: 46px
+}
+
+.title-cat-pppp span:hover {
+    text-decoration: none;
+    color: #255E98 !important;
+    cursor: pointer;
+}
+
+.p-border {
+    border: 1px solid #ddd;
+    border-top: 0 none;
+    margin-top: -4px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.cate-product-view,
+.price-whole-sale1,
+.sale-input {
+    float: left;
+    padding: 0;
+    display: block
+}
+.grid_img {
+    width: 100%;
+    max-height: 205px
+}
+
+#sticky.stick {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 .5em .5em
+}
+
+.logo_others {
+    background-image: url('../Bangladesh Trade Development Council2.png');
+    background-repeat: no-repeat;
+    padding-left: 133px;
+    height: 100%;
+    padding-bottom: 34px;
+    padding-top: 21px;
+    margin: auto auto auto 6%;
+    max-width: 440px;
+    min-height: 94px;
+    width: 100%;
+    background-size: 100%;
+    background-position: 2px 5px
+}
+
+#back-home,#bang-trade {
+    font-size: 12px;
+    margin: 0;
+    font-family: verdana;
+    transition: .3s;
+    color: #255E98;
+    text-align: center
+}
+
+#bang-trade {
+    line-height: 14px;
+    word-spacing: 0;
+    display: block;
+    padding: 0;
+    font-weight: 900;
+    white-space: pre-line;
+    height: 40px;
+    width: 180px
+}
+
+#navigation-menu-manager .navigation-normal-title,.m-ws-industry-item a,.m-ws-industry-item-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#back-home {
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-weight: 600;
+    height: 30px
+}

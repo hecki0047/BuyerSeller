@@ -1,0 +1,337 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.payment {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .loggg {
+        width: 140px
+    }
+}
+.discover,.link-heading {
+    display: block;
+    font-family: verdan;
+    overflow: hidden
+}
+
+.discover,.find-title,.pic,.slogan {
+    text-align: center
+}
+
+.des-detail,.discover,.img-wrapper,.link-heading,.pic,.slide-images-big,.ui2-tag,.util-ellipsis {
+    overflow: hidden
+}
+
+.user-guide-banner {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background: url(../../assets/fontend/bdtdc-images/quick-user-guide.jpg) center 0 no-repeat;
+    background-size: cover
+}
+
+.find-title span,.img-box,.user-guide-nav {
+    background-color: #fff
+}
+
+.slogan {
+    padding-top: 120px;
+    font-size: 64px;
+    line-height: 1.1;
+    color: #3E4B5B;
+    font-weight: 700
+}
+
+.slogan em {
+    font-style: normal;
+    font-weight: 400
+}
+
+.dere {
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    bottom: 40px;
+    width: 28px;
+    cursor: pointer
+}
+
+.user-guide-banner {
+    color: transparent;
+    font-size: 0;
+    border: 0;
+    vertical-align: middle
+}
+
+.link-heading {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 18px;
+    line-height: 45px
+}
+
+
+.slide-images-big {
+    width: 100%;
+    display: block;
+    height: 410px;
+    padding: 0;
+    margin: 0
+}
+
+
+.action,.company-detail,.find-title span,.img-box,.ui2-tag {
+    position: relative
+}
+
+.discover {
+    font-size: 24px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #000
+}
+
+.find-title {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #999;
+    border-bottom: 1px solid #dae2ee
+}
+
+.find-title span {
+    top: 7px;
+    padding: 0 20px
+}
+
+.img-box {
+    height: 426px;
+    padding: 25px;
+    margin: 0 15px 20px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.3)
+}
+
+.left,
+.quote-cmp,
+.tweet {
+    float: left
+}
+
+.agreement-title, .payment, .protect-Buyer-span, .step-span {
+    font-family: verdana;
+}
+
+.top-path {
+    width: 100%;
+    float: left;
+    padding: 22px 0 0 7px;
+    margin: 0;
+    list-style-type: none;
+}
+.top-path-li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0;
+}
+.top-path-li-a {
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: inherit;
+}
+.payment, .vip-li {
+    letter-spacing: .01em;
+}
+.top-path-li-a:active, .top-path-li-a:hover {
+    color: #255E98;
+}
+.top-path-icon {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.buyer-cont, .payment {
+    width: 100%;
+    text-align: center;
+}
+.payment {
+    font-size: 20px;
+    color: #255E98;
+    float: right;
+    padding-left: 10%;
+    display: block;
+    overflow: hidden;
+}
+.item {
+    padding: 0!important;
+    margin: 0!important
+}
+
+
+
+.payment {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.dispute {
+    font-size: 14px;
+    color: #333
+}
+
+.img-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+
+.carousel-inner .left {
+    z-index: 3;
+}
+
+a:hover {
+    color: #3175af;
+}
+.form-control {
+    height: 35px
+}
+i.fa-angle-right {
+    font-size: 30px;
+    /*width: 100%*/
+}
+
+.padding_0 {
+    padding: 0
+}
+.container{font-family:verdana;}
+
+.category-bdt{
+    height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+    font-size: 18px;
+    color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.payment
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+ .dispute
+ {
+    font-size: 14px;
+    color: #333;
+    
+ }
+#b1{
+    padding-left: 105px;
+    padding-right: 113px;
+    font-size: 16px;
+    font-weight: bold;
+}

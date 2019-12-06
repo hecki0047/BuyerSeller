@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .loggg {
+        width: 140px
+    }
+}
+
+#sourcing-list{
+    max-width: 904px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    display: none;
+    position: absolute;
+    top: 42px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.53);
+}
+
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+.form-control {
+    height: 35px
+}
+
+i.fa-angle-right {
+    font-size: 30px;
+    /*width: 100%*/
+}
+.padding_0 {
+    padding: 0
+}
+.container{font-family:verdana;}
+
+.category-bdt{
+    height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+    font-size: 18px;
+    color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+#sourcing-list
+{
+    padding-left: 3%;
+    background-color: rgb(255, 255, 255) !important;
+    margin-left: 3%;
+    display:none;
+    z-index:1;
+}
+
+#sourcing-list1
+{
+
+    background:url('../helpcenter/RFQ-Banner-04.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 324px;
+}
+.source
+{  
+  border: 1px solid #DAE2ED;
+}
+
+.left_sh{
+    border-left: 1px solid #e8e8e8;
+}
+
+
+.item_sha {
+    padding-top: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    z-index: 1
+}
+
+
+.summary,.summary_pro {
+    font-size: 12px;
+    color: #999;
+    line-height: 18px
+}
+
+.summary {
+    padding: 1px
+}
+
+.list_product {
+    margin-top: 2px;
+    width: 98.5%;
+    min-height: 270px;
+    padding: 10px 0 5px
+}
+
+.title_home {
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    height: 32px;
+    line-height: 26px;
+    padding-left: 1px
+}
+
+.pro_name,.sub-title {
+    color: #333;
+    display: block
+}
+
+
+.pro_name {
+    font-size: 14px;
+    padding: 5px;
+    line-height: 16px;
+    height: 60px;
+    max-height: 62px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#pro_view {
+    background: #f5f7fa;
+    border-top: 1px solid rgba(0,0,0,.1)
+}
+
+.margin_supp {
+    padding-left: 20px
+}
+
+
+.comp_title {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 3px;
+    line-height: 20px;
+    vertical-align: top;
+    float: left;
+    padding-left: 10px
+}
+#ajax_status,.loader {
+    z-index: 99999999;
+    left: 0
+}
+
+
+.loader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/uploads/page-loader.gif) 50% 50% no-repeat #f9f9f9
+}
+.mobo-categories h3 a {
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px;
+}
